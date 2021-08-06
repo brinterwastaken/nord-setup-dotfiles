@@ -2,7 +2,7 @@
 
 Preview-
 
-
+![image](https://user-images.githubusercontent.com/72494265/128494686-103a622a-96fc-4d19-83af-4a6d1d28934c.png)
 
 - I used https://github.com/rafamadriz/Firefox-Elegant-NordTheme css theme, and nighttab for the startpage.
 
