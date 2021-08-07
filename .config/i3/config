@@ -66,13 +66,13 @@ bindsym $mod+d exec --no-startup-id sh ~/.config/polybar/blocks/scripts/launcher
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
 # take a screenshot
-bindsym Print exec scrot $HOME/Pictures/Screenshots/'scrot_%d-%m-%Y_%H:%M:%S'.png
+bindsym Print exec ~/sh/full-ss.sh
 
 # take screenshot of focused window
-bindsym $mod+Print exec scrot -u $HOME/Pictures/Screenshots/'window_%d-%m-%Y_%H:%M:%S'.png
+bindsym $mod+Print exec ~/sh/cur-win-ss.sh
 
 # take screenshot of selected area 
-bindsym --release ctrl+Print exec ~/.area-ss.sh
+bindsym --release ctrl+Print exec ~/sh/area-ss.sh
 
 # change focus
 bindsym $mod+j focus left
