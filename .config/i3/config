@@ -31,7 +31,7 @@ font pango:monospace 13
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
-# use MOD + L to lock screen
+# use MOD + ESC for power menu
 bindsym $mod+Escape exec --no-startup-id sh ~/.config/polybar/blocks/scripts/powermenu.sh
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
@@ -47,6 +47,9 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
+
+# Use mod+space to run dmenu for quick application launching
+bindsym $mod+space exec dmenu_run -fn 'Iosevka-14' -nb '#2e3440' -nf '#E5E9F0' -sf '#88c0d0' -sb '#5e81ac'
 
 # start a terminal
 bindsym $mod+t exec alacritty
@@ -104,7 +107,7 @@ bindsym $mod+e layout toggle split
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+bindsym $mod+Shift+f focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -187,6 +190,8 @@ bindsym $mod+Return mode "resize"
 # finds out, if available)
 
 exec --no-startup-id nitrogen --restore
+
+exec --no-startup-id dunst
 
 exec --no-startup-id picom
 
