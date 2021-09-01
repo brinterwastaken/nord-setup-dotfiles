@@ -8,8 +8,7 @@ https://github.com/xXTgamerXx/nord-setup-dotfiles/tree/main/.config/polybar/bloc
 Wallpaper- (I found it here- https://githubmemory.com/repo/lokesh-krishna/dotfiles)
 
 ![nord-2](https://user-images.githubusercontent.com/72494265/127799350-ea0100ec-323e-4248-ad56-57412cba0790.png)
-
-Another Screenshots of many applications
+Screenshot with various applications
 
 ![nordic-i3](https://user-images.githubusercontent.com/72494265/129692987-42ad19a8-a81c-4dda-8e48-f25cb863efe2.jpg)
 
